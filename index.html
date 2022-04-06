@@ -13,23 +13,37 @@
 <main>
 
     <body>
-        <div class="center">
-            <p id="Question">Want to play a round?</p>
+        <div class="playingCards faceImages simpleCards rotateHand">
+            <div class="center">
+                <p id="Question">Want to play a round?</p>
+            </div>
+            <div id="CardSection" class="center">
+                <p id="Cards">Cards:</p>
+            </div>
+            <div class="center">
+                <p id="Sum">Sum:</p>
+            </div><br>
+            <div class="center">
+                <button id="one" type="button" onclick="startGame()"
+                    class="myButton myButton:hover myButton:active">START
+                    NEW
+                    GAME</button>
+            </div><br>
+            <div class="center">
+                <button id="two" type="button" onclick="newCard()" class="myButton myButton:hover myButton:active">NEW
+                    CARD</button>
+            </div>
+            <!--
+            <div class="right-centered infoBox">
+                <p>Card Values</p>
+            </div>
         </div>
-        <div class="center">
-            <p id="Cards">Cards:</p>
+    -->
+            <!--
+        <div class="infoBox window">
+            <p>Pop Up</p>
         </div>
-        <div class="center">
-            <p id="Sum">Sum:</p>
-        </div><br>
-        <div class="center">
-            <button id="one" type="button" onclick="startGame()" class="myButton myButton:hover myButton:active">START
-                NEW
-                GAME</button>
-        </div><br>
-        <div class="center">
-            <button id="two" type="button" onclick="newCard()" class="myButton myButton:hover myButton:active">NEW
-                CARD</button>
+    -->
         </div>
     </body>
 </main>
